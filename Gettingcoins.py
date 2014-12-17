@@ -4,7 +4,7 @@
 import sys, pygame, random
 from pygame.locals import *
 from sys import exit
-BACKGROUND = 'QQ空间背景专用.jpg'
+BACKGROUND = 'QQ空间背景专用.jpg'   #Set background
 
 
 pygame.init()
