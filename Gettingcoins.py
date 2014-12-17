@@ -81,11 +81,12 @@ while True:
         aSoldier.run()
         #In case of the soldier is running out of range
         
-        #Case 1, let the soldier running out from the other end
+        #Case 1, let the soldier running out from one end
         if aSoldier.rect[0] < 0:
             aSoldier.rect[0] = 480
             aSoldier = Soldier([aSoldier.rect[0], 500], [LorR, 0])
             aSoldier.run()
+        #Case 2 
         elif aSoldier.rect[0] > 480:
             aSoldier.rect[0] = 0
             aSoldier = Soldier([aSoldier.rect[0], 500], [LorR, 0])
